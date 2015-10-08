@@ -1,0 +1,68 @@
+{
+	"devices": [
+		{
+			"btMac": "78:A5:04:8C:15:70",
+			"deviceId": "ca11ab1e-c0de-b007-ab1e-de71ce10ad00",
+    		"deviceKey": "devicekey",
+			"deviceName": "Sensortag :70",
+			"deviceClass": {
+				"name": "wotio_sensortag",
+				"version": "0.0.1"
+			},
+			"serviceUrl": "http://YOUR_DEVICEHIVE_HOSTNAME/api/rest",
+			"accessKey": "SxErikot5cWZfSbwl7iuuXyqF6WWbP4Y3zQa7LV8PgI=",
+			"network": {
+				"name": "wotio Beaglebone Sensortag Demo",
+				"key": "networkkey"
+			},
+			"equipment": [
+				{
+					"code": "humidity",
+					"name": "Humidity",
+					"units": "%RH",
+					"interval": 10000,
+					"command": "python ./sensortag.py 78:A5:04:8C:15:70 -Z -n 1"
+				},
+				{
+					"code": "temperature",
+					"name": "Temperature",
+					"units": "C",
+					"interval": 10000,
+					"command": "python ./sensortag.py 78:A5:04:8C:15:70 -Y -n 1"
+				}
+			]
+		},
+		{
+			"btMac": "78:A5:04:8C:15:71",
+			"deviceId": "ca11ab1e-c0de-b007-ab1e-de71ce10ad01",
+    		"deviceKey": "devicekey",
+			"deviceName": "Sensortag :71",
+			"deviceClass": {
+				"name": "wotio_sensortag",
+				"version": "0.0.1"
+			},
+			"serviceUrl": "http://YOUR_DEVICEHIVE_HOSTNAME/api/rest",
+			"accessKey": "SxErikot5cWZfSbwl7iuuXyqF6WWbP4Y3zQa7LV8PgI=",
+			"network": {
+				"name": "wotio Beaglebone Sensortag Demo",
+				"key": "networkkey"
+			},
+			"equipment": [
+				{
+					"code": "humidity",
+					"name": "Humidity",
+					"units": "%RH",
+					"interval": 10000,
+					"command": "python ./sensortag.py 78:A5:04:8C:15:71 -Z -n 1"
+				},
+				{
+					"code": "temperature",
+					"name": "Temperature",
+					"units": "C",
+					"interval": 10000,
+					"command": "python ./sensortag.py 78:A5:04:8C:15:71 -Y -n 1"
+				}
+			]
+		}
+	]
+}
