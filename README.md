@@ -3,7 +3,7 @@
 This is a demonstration of the TI CC2650 / CC2541 Sensortags communicating
 via Bluetooth Low-Energy to a Beaglebone Black. On the Beaglebone is a gateway
 created with Node.js and Python, bridging the Sensortags to the DeviceHive
-device management platform. From DeviceHive, the wot.io data service exchange™
+device management platform. From DeviceHive data service, the wot.io data service exchange™
 will send the data to a number of data services, such as scriptr, Circonus,
 bip.io, and more.
 
